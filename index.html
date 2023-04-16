@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ANCASH</title>
+    <style> 
+        body{   
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            height: 100vh;
+            font-size: 12px;
+            font-family: sans-serif;
+            background-image: url(https://www.peru.travel/Contenido/Destino/Imagen/es/2/1.3/Principal/Ancash.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+    
+    
+    .linea{
+        display: flex;
+        margin: 5px 20px;
+        
+    }
+    
+    a{
+        
+        flex-direction:row;
+        text-decoration: none;
+        font-size: 20px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 20px;
+        margin: auto;
+        color: white;
+        
+    }
+    
+    h1{
+        color: white;
+        margin-left: 20px;
+        font-size: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .contenedor{
+        position: absolute;
+        z-index: 1;
+        width: 80%;
+        height: 800px;   
+        text-align: center;
+        margin:  auto;
+        border-radius: 20px;
+        
+    }
+    
+    .origen{
+        text-align: left;
+        margin: 100px 100px;
+    
+    }
+    
+    
+    
+    p{
+        color: white;
+        text-align: left;
+        font-size: 19px;
+    
+    }
+    
+    .boton{
+        font-size: 20px;
+        padding: 10px 20px;
+        color: black ;
+        background: rgba(24, 161, 185);
+        box-shadow: 0 0 5px cyan;
+        border-radius: 20px;
+        margin: 30px 0px;
+        transition: .5s;
+    }
+    
+    
+    
+    
+    .imagendefondo{
+        opacity: 0.5;
+        width: 80%;
+        height: 80%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 30px rgb(241, 209, 209); 
+    }
+    
+    .redes{
+        margin-top: 100px;
+        opacity: 1;
+    }
+    
+    
+    .a1{
+        background-image: url(img/facebook.svg);
+        background-repeat: no-repeat;
+        padding-bottom: 0px;
+        margin: 20px;
+    }
+    .a2{
+        background-image: url(img/instagram.svg);
+        background-repeat: no-repeat;
+        margin: 20px;
+        padding-bottom: 0px;
+    }
+    .a3{
+        background-image: url(img/twitter.svg);
+        background-repeat: no-repeat;
+        margin: 20px;
+        padding-bottom: 0px;
+    }
+    
+    .imagenes{
+        display: inline;
+        justify-content:center;
+        
+        
+    }
+    
+    .imagen, h4{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        float: right;
+        bottom: 80px;
+        left: 100px;
+        border-radius: 10px;
+        margin: 10px;
+        border-color: 1px solid black;
+        box-shadow: 0px 0px 10px rgb(241, 76, 76);
+    }
+    
+    .boton:hover{
+        background-color: rgb(24, 161, 185);
+        box-shadow: 0px 0px 30px cyan,
+        0 0 25px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
+        color:black;
+    }
+    
+    a:hover{
+        color: rgb(1, 141, 146);    
+    }
+    </style>
+</head>
+<body>
+    <img class="imagendefondo" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSEhIVFRUXFRUXFRcVFxcVFRUXFRUXFxUXFxUYHSggGB0lHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIDBwT/xAAqEAEBAQABAQcDBAMBAAAAAAAAARECITFBUWFxgfASkbETocHRA9LhYv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDw9qejMaviAXGoUCNKBUGgFVUganLuFhkXKgwqaARBgGQ7gh5QGYlUBqgUBFADagQPsyZ+FQBGoGuUxbvT7Tu6+QqBSDUqCOA500FjLQAyaoI1Aa+jLZnXPTPOsVrlfFiguQRoBRRA16N2dnTrv3+dXONQFy42XOwXo1bt8/HvZoMtSfcGUFgMnegGtWMmgdz3/A7VFAdf0eXhfty/pMb/AOqQc9SIBHRQTWstaDKh1ADqwwGaq0J5gzhFQEYlAMUNQINs4ARqAystAAkQC0gAigVKa/6DEOBA3y5dJPBm1KAsO+IQG1azIZQalZrXazaAoVQJRRQGo1rManQBq+oWqwDb16LAALXHl2soFVYKaATc/LILKkgMNB5AwoYAPGeyiMoIKgChaYB+rwZIA1mm0AmoyZQTU5eLJBKLkNAlkwFaqbQASINSCqG/PUGE19U8CA5UalYCig0gpFasWArWWpDy9vSAxhiqgJKgEdP0sgd7gmpxBmFKAqMNAIymLl8zs9gUqsWKwCEqCh40RSA3vHwqc0DSrV8/x1+7HIBaZRqBJSoDgxqLNBlKgEjoAyqiRqUBFqtVAINAtQUoE4cxaDKR5UBq1KA1FRG/T8dQH0eqa2+N+9AG3Z3ufI3ltVBmxKxZ7AolCBlU5KXpg0GaisAYjQChkBoKwUwADiQJHEDX1ewo1rQZViVoKKRYsBR1nTxYi0D+oT+tfFA56rTygsASHUoCVUVgJcpnTOosQKqAgqCAa+rpjKIBqcu5lAjBCCohANRcvsIpAPRUYaC0VoApVqk1cYATp+nPGIGcNENBmBLQJg4/MUBUNABh4qoEGrxZBWBqxmgjIGpACTXHiA5DDigAxEFjJVAEIGpDfn9LiAP0VMIC1nexTQQRnaCxNcuOSefYyCShwBKsV4nAMmM1qfszQZqNAKKJQGo12sxr0BmxUicQQas9wCSPDju/v7AzTVyVBqTfZlAClvkgBCA4KdAHSy1gDENQHTrJA6J5hAKkQFSQNU6zEDQ1ADqC0Ghb1MjIKEICEgSCBq1Hne3/AIIANPFnAUO/O8HQChZAxocVANjNdeXLbb08eve5gyqaAUSUAxqQN+F6dvzQZFjX+Tltt8WaAWBqX53Apfn9JAFCMat7ACiqA9PNO3698f24/wCqB88rV5XM8N/ft/DLXmAwU4gSNZwFUbBICSpoGYuWiTvNoM0KqgjAQai5CU5oMpRAsRUgIIwAUsA8eVm5e3oOR82QWo6gFUKBmOn+H+L+KUDCSBURIGu/54sRIHadk+d7ny/iFAzAkCNSA8O71dOPZ7fxAgc6qUC59q4pADUga59k9P5rCQHuCQFJA//Z" alt="">
+    
+    <div class="contenedor">
+
+        <div class="linea">
+            <h1>Viaja</h1>
+            <a href="#">Inicio</a>
+            <a href="#">Redes</a>
+            <a href="#">Tours</a>
+            <a href="#">Hoteles</a>      
+        </div> 
+        <div class="origen">
+            <h1>Ancash</h1>
+            <p>Áncash es una región peruana al norte de Lima en la costa del océano Pacífico. Huaraz, su capital y centro de transporte, <br> se ubica en el Callejón de Huaylas, 
+                un valle entre las 2 cadenas montañosas de Áncash.  La Cordillera Blanca, al este<br> del valle, tiene cumbres nevadas de más de 6,000 metros. El Parque Nacional
+                Huascarán,  que abarca gran <br>parte de la Cordillera Blanca, es hogar de cóndores y jaguares andinos.</p>
+
+                <button class="boton">Explorar</button>
+                <div class="redes">
+                    <a href="#" class="a1"></a>
+                    <a href="#" class="a2"></a>
+                    <a href="#" class="a3"></a>
+                </div>
+
+                
+                <div class="imagenes">
+                    
+                    <img class="imagen" src="img/laguna.jpg" alt="">
+                    <img class="imagen" src="img/nevado.jpg" alt="">
+                    <img class="imagen" src="img/12.jpg" alt="">
+                </div>
+
+        </div>   
+                
+    </div>
+</body>
+</html>
